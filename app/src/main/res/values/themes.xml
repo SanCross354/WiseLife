@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WiseLife" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<!--        <item name="colorPrimary">@color/cream</item>-->
+<!--        <item name="colorPrimaryVariant">@color/cream</item>-->
+<!--        <item name="colorOnPrimary">@color/cream</item>-->
+<!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+    </style>
+
+    <style name="Theme.WiseLife" parent="Base.Theme.WiseLife" />
+    <style name="CircularDetermineProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circle</item>
+    </style>
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/cream</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.WiseLife</item>
+    </style>
+</resources>

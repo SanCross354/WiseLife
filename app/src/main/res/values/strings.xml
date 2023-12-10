@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">LoginRegis</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="log_in">Log In!</string>
+
+    <string name="title_activity_register">Register</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--    Login & Register Page-->
+    <string name="name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="hello">Hello,</string>
+    <string name="have_account">Already have an account ?</string>
+
+    <!--    String for Dashboard-->
+    <!--    Categories-->
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shops">Shops</string>
+    <string name="banks">Banks</string>
+    <string name="airports">Airports</string>
+
+    <!--    Titles and Descriptions-->
+    <string name="featured_location">All Featured Locations</string>
+    <string name="featured_location_description">All the locations that are featured and have the top demand in town!</string>
+    <string name="most_viewed_locations">Most Viewed</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">Search</string>
+
+    <!--    String for Profile Page -->
+    <string name="profile_header">Profile</string>
+    <string name="personal">Personal Details</string>
+    <string name="age">years old</string>
+    <string name="current_weight">Current Weight</string>
+    <string name="kg">kg</string>
+    <string name="height">Height</string>
+    <string name="cm">cm</string>
+    <string name="goal">Goal</string>
+    <string name="goal_w">Goal weight</string>
+    <string name="bmi">BMI</string>
+
+</resources>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "352165926048",
+    "firebase_url": "https://wiselife-bfaba-default-rtdb.firebaseio.com",
+    "project_id": "wiselife-bfaba",
+    "storage_bucket": "wiselife-bfaba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352165926048:android:3d16e925de423e432a65c5",
+        "android_client_info": {
+          "package_name": "com.example.wise_life"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI3unzKRHoo1Nvx8wma5GDshkeFXTINRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352165926048:android:494a91f314f8250b2a65c5",
+        "android_client_info": {
+          "package_name": "com.example.wiselife"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI3unzKRHoo1Nvx8wma5GDshkeFXTINRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

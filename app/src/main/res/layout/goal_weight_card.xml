@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6D6D6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/profile_card"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Track Weight"
+            android:textSize="27sp"
+            android:fontFamily="@font/robotoslab_semibold"
+            android:textAlignment="center"/>
+
+        <NumberPicker
+            android:id="@+id/numberPickerWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="in "
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/in"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="kg"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_updateWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE WEIGHT"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/robotoslab_semibold"
+            android:background="@drawable/bg_button_gradation"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

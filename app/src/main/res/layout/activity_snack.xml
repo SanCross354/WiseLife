@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Snack"
+    android:background="#F5F7F8"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/headerMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:src="@drawable/arrow_back"
+            android:contentDescription="Back"/>
+
+        <TextView
+            android:id="@+id/titleMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="SNACK"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_card"
+                android:orientation="vertical">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageMenu"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/snackimage"
+                    app:shapeAppearance="@style/RoundedSquare"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/desc_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I don't go long without eating. I never starve myself: I grab a healthy snack."
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/poppins_light"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="20dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="4dp"
+                android:background="@drawable/bg_button_gradation"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/menu_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
