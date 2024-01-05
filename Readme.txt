@@ -2,8 +2,8 @@ Nama Aplikasi: WiseLife
 Nama Kelompok: Mudryk Corp
 Nama Anggota:
 1) Nabil Najmudin - 21523281
-2)
-3)
+2) Wildan Syaifudin Ahmad - 21523222
+3) 
 4)
 5)
 
@@ -16,6 +16,10 @@ Anggota 1:
  - Mencari info kandungan pada menu diet (calorie, carb, fat, dan protein)
  - Membuat keseluruhan PPT
  - Membuat UI/UX aplikasi menggunakan Figma
+
 Anggota 2:
- -
- -
+ - Mengatur Firebase Database ke dalam aplikasi WiseLife 
+ - Mengembangkan Homepage
+ - Mengembangkan 4 menu diet plan page (Breakfast, Lunch, Dinner, Snack)
+ - Mengembangkan mekanisme update daily calorie, carb, fat, dan protein milik user
+ - Membuat UI/UX aplikasi menggunakan Figma
