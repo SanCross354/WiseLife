@@ -3,7 +3,7 @@ Nama Kelompok: Mudryk Corp
 Nama Anggota:
 1) Nabil Najmudin - 21523281
 2) Wildan Syaifudin Ahmad - 21523222
-3) 
+3) Maulana Rizky Richardy - 21523161
 4)
 5)
 
@@ -23,3 +23,11 @@ Anggota 2:
  - Mengembangkan 4 menu diet plan page (Breakfast, Lunch, Dinner, Snack)
  - Mengembangkan mekanisme update daily calorie, carb, fat, dan protein milik user
  - Membuat UI/UX aplikasi menggunakan Figma
+
+Anggota 3:
+- Membuat tampilan login
+- Membuat animasi splash screen
+- Membuat tampilan profil user
+- Membuat video promosi aplikasi keseluruhan
+- Membuat UI/UX aplikasi menggunakan figma
+- Mencari API yang memuat kandungan pada makanan
