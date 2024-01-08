@@ -4,7 +4,7 @@ Nama Anggota:
 1) Nabil Najmudin - 21523281
 2) Wildan Syaifudin Ahmad - 21523222
 3) Maulana Rizky Richardy - 21523161
-4)
+4) Arya Andhika Yudhistiro - 21523097
 5)
 
 Job Desc:
@@ -31,3 +31,10 @@ Anggota 3:
 - Membuat video promosi aplikasi keseluruhan
 - Membuat UI/UX aplikasi menggunakan figma
 - Mencari API yang memuat kandungan pada makanan
+
+Anggota 4:
+- Membuat UI/UX aplikasi menggunakan figma
+- Membuat animasi splash screen
+- Membuat Poster
+- Membuat Logo Aplikasi
+- Membuat backgroun aplikasi
