@@ -5,7 +5,7 @@ Nama Anggota:
 2) Wildan Syaifudin Ahmad - 21523222
 3) Maulana Rizky Richardy - 21523161
 4) Arya Andhika Yudhistiro - 21523097
-5)
+5) Pandu Avilba - 21523018
 
 Job Desc:
 Anggota 1:
@@ -33,6 +33,13 @@ Anggota 3:
 - Mencari API yang memuat kandungan pada makanan
 
 Anggota 4:
+- Membuat UI/UX aplikasi menggunakan figma
+- Membuat animasi splash screen
+- Membuat Poster
+- Membuat Logo Aplikasi
+- Membuat backgroun aplikasi
+
+Anggota 5:
 - Membuat UI/UX aplikasi menggunakan figma
 - Membuat animasi splash screen
 - Membuat Poster
